@@ -1,0 +1,5 @@
+# Python dependencies
+# Add your packages here as needed
+# Example:
+# requests==2.31.0
+# pandas==2.1.0
