@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HolaMundo App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="app-card">
+            <div class="header">
+                <h1>🌍 HolaMundo</h1>
+                <p class="subtitle">Mi primera aplicación</p>
+            </div>
+            
+            <div class="content">
+                <div class="message-box">
+                    <h2 id="greeting">¡Hola Mundo!</h2>
+                    <p id="description">Bienvenido a mi primera aplicación web</p>
+                </div>
+                
+                <div class="interactive-section">
+                    <button id="changeGreeting" class="btn primary">Cambiar Saludo</button>
+                    <button id="changeLanguage" class="btn secondary">Cambiar Idioma</button>
+                    <button id="resetApp" class="btn reset">Reiniciar</button>
+                </div>
+                
+                <div class="info-section">
+                    <div class="info-card">
+                        <h3>📅 Fecha</h3>
+                        <p id="currentDate"></p>
+                    </div>
+                    <div class="info-card">
+                        <h3>⏰ Hora</h3>
+                        <p id="currentTime"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
